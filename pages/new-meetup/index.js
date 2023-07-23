@@ -7,7 +7,9 @@ const NewMeetupPage = () => {
         console.log(enteredMeetupData)
     }
   return (
+    
     <NewMeetupForm onAddMeetup = {addMeetupHandler}/>
+   
   )
 }
 

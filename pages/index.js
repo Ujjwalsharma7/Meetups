@@ -1,6 +1,7 @@
 import React from 'react'
 import MeetupList from '../components/meetups/MeetupList'
 import spot from '../public/next.svg'
+
 const Dummy_MEETUPS = [
 {id:'m1',
     title:'First Meetup',
@@ -16,7 +17,9 @@ const Dummy_MEETUPS = [
 
 const Homepage = () => {
   return (
+    
    <MeetupList meetups={Dummy_MEETUPS}/>
+   
   )
 }
 
